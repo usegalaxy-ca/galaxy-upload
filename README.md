@@ -2,8 +2,8 @@
 Simple program to assist in uploading files UseGalaxy.ca
 
 # install
-virtualenv venv
-pip install bioblend
+- virtualenv venv
+- pip install bioblend
 
 # Usage
 
