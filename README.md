@@ -10,7 +10,7 @@ Simple program to assist in uploading files UseGalaxy.ca
 galaxy-upload key=<your Galaxy API key> histid=<History ID> filepath=<Full path name of the file to upload>
 ```
 
-- If you omit your Galaxy API key you will be promped to provide the information. 
+- If you omit your Galaxy API key you will be promped to provide it. 
 
 - If you omit the <History ID> the program will give you the list of your histories you can choose from
 
