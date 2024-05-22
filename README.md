@@ -7,7 +7,7 @@ Simple program to assist in uploading files UseGalaxy.ca
 
 # Usage
 ```
-galaxy-upload key=<your personal Galaxy API key\> histid=<History ID\> filepath=<Full path name of the file to upload\>
+galaxy-upload key=<your personal Galaxy API key> histid=<History ID> filepath=<Full path name of the file to upload>
 ```
 
 - If you omit your secret ket you will be promped to provide the information. 
