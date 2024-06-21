@@ -81,6 +81,11 @@ if __name__ == "__main__":
     else:
         user_key=params['key']
 
+    if 'galaxyurl' not in params:
+        galaxy_url='https://usegalaxy.ca'
+    else:
+        galaxy_url=params['galaxyurl']
+
     if 'histid' not in params:
         histid = None
     else:
@@ -91,7 +96,7 @@ if __name__ == "__main__":
     else:
         filepath=params['filepath']
 
-    gi = GalaxyInstance(url='https://usegalaxy.ca', key=user_key )
+    gi = GalaxyInstance(url=galaxy_url, key=user_key )
 
     selected_destination_hist = select_dest_history(gi,histid)
 
