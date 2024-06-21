@@ -104,7 +104,7 @@ if __name__ == "__main__":
 
     print("\n====================================================================\n")
 
-    print(f"Galaxy URL where to upload file  : {selected_file_to_upload}")
+    print(f"Galaxy URL where to upload file  : {galaxy_url}")
     print(f"File selected to upload          : {selected_file_to_upload}")
     print(f"Destination history selected     : {selected_destination_hist['name']}")
 
