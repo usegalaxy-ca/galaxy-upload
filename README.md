@@ -1,5 +1,6 @@
 # galaxy-upload
-Simple program to assist in uploading files UseGalaxy.ca
+Simple program to assist in uploading files to any Galaxy instances (default is https://usegalaxy.ca). You
+will need to generate a secret key in your Galaxy account under "User/Preferences/Manage API Key".
 
 # install
 - virtualenv venv
