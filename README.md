@@ -8,7 +8,7 @@ will need to generate a secret key in your Galaxy account under "User/Preference
 
 # Usage
 ```
-galaxy-upload galaxy_url=<Galaxy URL> key=<your Galaxy API key> histid=<History ID> filepath=<Full path name of the file to upload>
+python3 galaxy-upload.py galaxy_url=<Galaxy URL> key=<your Galaxy API key> histid=<History ID> filepath=<Full path name of the file to upload>
 ```
 
 - If you omit the Galaxy URL the default will be https://usegalaxy.ca
