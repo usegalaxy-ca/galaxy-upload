@@ -104,8 +104,9 @@ if __name__ == "__main__":
 
     print("\n====================================================================\n")
 
-    print(f"File selected to upload      : {selected_file_to_upload}")
-    print(f"Destination history selected : {selected_destination_hist['name']}")
+    print(f"Galaxy URL where to upload file  : {selected_file_to_upload}")
+    print(f"File selected to upload          : {selected_file_to_upload}")
+    print(f"Destination history selected     : {selected_destination_hist['name']}")
 
     user_choice = input("\nPlease confirm the operation ('y' or 'n'): ")
     if user_choice.lower() == 'y':
